@@ -12,6 +12,9 @@
     "sourceMap": true,
     "strict": true,
     "baseUrl": ".",
+    "paths": {
+      "@utils/*": ["utils/*"],
+  },
     "typeRoots": ["./node_modules/@types/", "**/typings/**/*.d.ts"],
     "noErrorTruncation": true,
     "lib": ["dom", "es2015", "es2016", "es2017.object"],
